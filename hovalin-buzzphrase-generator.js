@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	setInterval(function(){
 	    $("#subheadline").text(quotes[currentQuote]);
 	    currentQuote = (currentQuote + 1) % quotes.length;
-	}, 3000);
+	}, 5000);
 });
 
 var quotes = [
